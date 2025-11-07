@@ -1,0 +1,1490 @@
+% Standard Operating Procedures Manual (SOPM)
+% School-Based Per Session Employment
+% XeLaTeX compatible template for Overleaf
+
+\documentclass[11pt,a4paper,oneside]{article}
+
+% Language and encoding
+\usepackage[utf-8]{inputenc}
+\usepackage[english]{babel}
+
+% Fonts for XeLaTeX
+\usepackage{fontspec}
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Sans}
+\setmonofont{Liberation Mono}
+
+% Page layout
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% Tables and formatting
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+% Lists and formatting
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0.5pt}
+\setlist[enumerate]{noitemsep, topsep=0.5pt}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\lfoot{SOPM: School-Based Per Session Employment ver. Nov 2025}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% Document structure
+\usepackage{titlesec}
+\titleformat{\section}[block]{\Large\bfseries}{\thesection\quad}{0pt}{}
+\titleformat{\subsection}[block]{\large\bfseries}{\thesubsection\quad}{0pt}{}
+\titleformat{\subsubsection}[block]{\bfseries}{\thesubsubsection\quad}{0pt}{}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+% Graphics (logo) and TikZ (diagrams/flowcharts)
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+% Title page and metadata
+\title{Standard Operating Procedures Manual (SOPM) \\ School-Based Per Session Employment}
+\author{New York City Public Schools \\ Division of Human Resources}
+\date{Effective Date: November 2025}
+
+%================================================================================
+\begin{document}
+
+\maketitle
+
+% Insert centered logo on the title page (appears immediately under the title/date)
+\begin{center}
+  \vspace{6pt}
+  \includegraphics[height=1.0in]{horizontal_logo_black_publicschoolsc-no-names.jpg}
+\end{center}
+
+\newpage
+
+\noindent
+	\textbf{New York City Public Schools} \\
+	\textbf{Division of Human Resources} \\
+	\textbf{Effective Date: November 2025}
+
+\hrulefill
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+%================================================================================
+\section{SOPM Purpose}
+
+The purpose of this Standard Operating Procedures Manual is to provide guidance on operationalizing school-based per session employment and to ensure compliance with the following regulations and agreements:
+
+\begin{itemize}
+\item \textbf{Chancellor's Regulation C-175}: Per Session Employment
+\item \textbf{Chancellor's Regulation C-604}: Recording Hours of Service
+\item \textbf{Chancellor's Regulation C-650}: Per Session Employment during Sabbatical Leave
+\item \textbf{Applicable Collective Bargaining Agreements}: United Federation of Teachers (UFT) and Council of School Supervisors and Administrators (CSA)
+\end{itemize}
+
+This manual defines the critical steps involved in school-based per session employment for applicable UFT and CSA staff.
+
+\subsection{Responsibilities}
+
+All individuals to whom this SOPM applies are responsible for becoming familiar with and following this SOPM. Division of Human Resources staff are responsible for promoting the understanding of this SOPM and for taking appropriate steps to ensure compliance with it.
+
+\subsubsection{Principals, School Designees, and Human Resources Directors (HRD) for Borough/Citywide Offices (BCO)}
+
+Principals, School Designees, and Human Resources Directors will ensure:
+
+\begin{itemize}
+\item Per session funding and budget confirmation
+\item Vacancy circular or posting creation
+\item Per session posting on school premises and internal communication
+\item Application and qualification reviews and nominations
+\item Per session activity timesheet review and approval
+\item Maintenance of all documents relating to per session
+\item Employee per session activity rating
+\item Waiver request processing and justification
+\end{itemize}
+
+\subsubsection{Division of Human Resources (DHR)}
+
+The Division of Human Resources will process:
+
+\begin{itemize}
+\item Waiver reviews for school-based positions
+\item Arbitration of disputes regarding policies and procedures
+\item Secondary waiver cap reviews (over 800 hours for UFT and CSA)
+\end{itemize}
+
+\subsubsection{UFT and CSA Applicants}
+
+Applicants will ensure:
+
+\begin{itemize}
+\item Application submission with completed OP-175, cover letter, and resume
+\item Per session activity timesheet submission
+\item Compliance with timekeeping requirements
+\end{itemize}
+
+%================================================================================
+\section{Key Definitions}
+
+For the purpose of this SOPM, the terms below have the following definitions:
+
+\subsection{Active Line of Service}
+
+A full-time employee being paid on Q-Bank on any Galaxy school Table of Organization (TO), working at the school or at another DOE school where they will perform the per session activity.
+
+\subsection{School Designee}
+
+The designated individual, acting on behalf of the principal, responsible for school-based per session hiring, posting, and management processes.
+
+\subsection{Council of School Supervisors \& Administrators (CSA)}
+
+The union representing principals, assistant principals, and other administrative/supervisory staff in the NYC Public Schools.
+
+\subsection{District Council 37 (DC37)}
+
+The union representing non-pedagogical support staff in the NYC Public Schools.
+
+\subsection{Human Resources Director (HRD)}
+
+The director responsible for Borough/Citywide Offices (BCO) human resources functions related to per session employment.
+
+\subsection{OP-175 Form}
+
+The application for per session employment and retention rights, Attachment 1 of Chancellor's Regulation C-175.
+
+\subsection{Per Session Employment}
+
+Work activity performed outside the regular work hours in which pedagogical employees (UFT and CSA) are paid at an hourly rate established by the applicable collective bargaining agreements. Activities that take place from July 1 to June 30 during non-work hours (e.g., summer school, after school, before school, and weekends).
+
+\subsection{Per Session Year}
+
+The period from July 1st to June 30th, aligning with the NYCPS fiscal year.
+
+\subsection{Retention Rights}
+
+Rights earned by some full-time active UFT staff with at least two years of continuous satisfactory service in a particular activity.
+
+\subsection{Table of Organization (TO)}
+
+The organizational structure in Galaxy that shows positions and staffing for each school or office.
+
+\subsection{United Federation of Teachers (UFT)}
+
+The union representing teachers and other pedagogical staff in the NYC Public Schools.
+
+\subsection{Vacancy Circular (VC)}
+
+The assigned number for each approved per session posting.
+
+\subsection{Waiver}
+
+Authorization to exceed the maximum allowable per session hours:
+\begin{itemize}
+\item 400 hours for teachers and other UFT staff
+\item 500 hours for principals and other CSA staff
+\end{itemize}
+
+%================================================================================
+\section{Per Session Explanation and Overview}
+
+\subsection{What is Per Session Employment?}
+
+Per session employment is work activity performed outside regular work hours. Pedagogical employees (UFT and CSA) are paid at hourly rates per collective bargaining agreements. This arrangement allows schools to extend educational programs beyond the traditional school day.
+
+\subsection{Key Characteristics of Per Session Work}
+
+Per session work:
+
+\begin{itemize}
+\item Must occur outside the employee's regular work hours
+\item Cannot interfere with primary responsibilities
+\item Must be educationally related and benefit students, families, or the school community
+\item Is governed by strict hour limitations and posting requirements
+\item May be performed remotely for certain activities (see Appendix A for detailed remote work guidelines)
+\end{itemize}
+
+\subsection{When Per Session Work Can Be Performed}
+
+Per session work can be performed:
+
+\begin{itemize}
+\item Before school hours
+\item After school hours
+\item During weekends
+\item During school holidays (with exceptions) and school vacations
+\item Summer programs and extended learning opportunities
+\item Evening and weekend professional development sessions, parent workshops, and community events
+\end{itemize}
+
+\subsection{Per Session Holiday Exceptions}
+
+Per session work is \textbf{prohibited on federal holidays} under any circumstances. Principals may not perform any per session work on school holidays. Job postings must be checked for specific dates before publication. Necessary approvals must be obtained in advance before planning work on school holidays. Per session work must occur only on dates listed in the posting and approved in advance.
+
+\subsection{Governing Regulation}
+
+Chancellor's Regulation C-175 is the primary policy document governing all aspects of per session employment within NYC Public Schools. This regulation establishes the framework for fair and consistent implementation of per session programs.
+
+This regulation covers:
+
+\begin{itemize}
+\item Posting requirements and selection procedures
+\item Hour limitations and approval processes
+\item Documentation standards
+\end{itemize}
+
+All per session employment must comply with C-175 provisions. Regular updates reflect collective bargaining agreement changes. Additional guidelines are provided by DHR manuals and FAQ documents.
+
+%================================================================================
+\section{Eligibility and Qualifications}
+
+\subsection{General Eligibility}
+
+To be eligible for per session, the employee must have an active line of service as defined in Section 2.1.
+
+\subsection{Eligible Categories}
+
+\subsubsection{Full-Time Employees}
+
+Full-time employees being paid on Q-Bank on any Galaxy school Table of Organization (TO), working at the school or at another DOE school where they will perform the per session activity.
+
+\subsubsection{Per Diem Substitutes}
+
+Per diem substitutes must have an active line of service in their title. Substitutes who have been terminated or suspended may not serve in a per session capacity.
+
+\subsubsection{Retirees}
+
+Retirees may only work per session if they have an active line of service as a per diem employee or a per session employee.
+
+% Section 4.2.4 (Employees on Certain Leaves) removed to streamline title page content.  If you want
+% this policy reinstated, add a short sentence here explaining leave-related eligibility and approval process.
+
+\subsection{Ineligible Categories}
+
+Employees in the following categories are \textbf{ineligible} for per session:
+
+\begin{itemize}
+\item Employees on any type of health-related leave or sabbatical
+\item Employees on paid parental leave
+\item New employees or prospective employees not yet officially on payroll
+\item Former employees without current active line of service
+\item H-Bank or administrative employees
+\item Employees on injury-related leave
+\item Employees reassigned for disciplinary purposes
+\item E-Bank employees
+\end{itemize}
+
+\subsection{Per Session Title Categories}
+
+\subsubsection{Common UFT Per Session Titles}
+
+\begin{itemize}
+\item Teacher
+\item Guidance Counselor
+\item School Psychologist
+\item School Social Worker
+\item School Secretary
+\item Paraprofessional
+\end{itemize}
+
+\subsubsection{Common CSA Per Session Titles}
+
+\begin{itemize}
+\item Assistant Coordinator
+\item Coordinator
+\item School Psychiatrist
+\item Supervisor
+\item Principal
+\item Assistant Principal
+\end{itemize}
+
+\subsection{Active Line of Service Requirements}
+
+Employees must:
+
+\begin{itemize}
+\item Be in good standing with NYC Public Schools as determined by the Office of Personnel Investigations
+\item Not be under disciplinary review or reassigned for disciplinary purposes
+\item Not be on sabbatical leave, medical leave, or extended leave during the work period
+\item Meet specific qualifications or certifications required for particular positions
+\end{itemize}
+
+\subsection{Retiree Per Session Eligibility}
+
+\subsubsection{Preference}
+
+Active staff with an active line of service have priority. Retirees without an active line of service may be considered only if the position has been advertised in accordance with per session policy and there are no other applicants.
+
+\subsubsection{Additional Requirements}
+
+\begin{itemize}
+\item Central DHR review is required after a review has taken place
+\item Retirees with two years of satisfactory per session service in the same activity maintain priority for that role (see Section 12.0)
+\item Retirees may work during listed hours as per job posting
+\item Nomination is required from principal or school designee
+\item Nominations cannot be backdated
+\end{itemize}
+
+\subsubsection{Additional Retiree Per Session Policies}
+
+\textbf{DHR Approval Required}: No school or office may nominate a retiree for per session employment without obtaining prior approval from central DHR.
+
+\textbf{Pension}: Retirees must monitor pay against pension/earnings limits and cannot exceed their standard earnings cap.
+
+\textbf{Per Diem Substitute Retirees}: Retirees may not work in the capacity of substitute teacher and be paid per session.
+
+\subsection{Employees Who Cannot Work Per Session}
+
+\begin{itemize}
+\item Employees cannot perform per session during regular school day or designated lunch hour
+\item Staff absent due to illness cannot work per session on the same day
+\item Employees who have been reassigned for disciplinary purposes or who are suspended are prohibited from per session work until regular assignment is restored
+\item Employees on childcare leave cannot perform per session work during their leave period
+\end{itemize}
+
+%================================================================================
+\section{Regulations and Guidelines}
+
+\subsection{Primary Policy Document}
+
+Chancellor's Regulation C-175 is the primary policy document governing all aspects of per session employment within NYC Public Schools. This regulation establishes the framework for fair and consistent implementation of per session programs.
+
+\subsection{Key Rules and Restrictions}
+
+All per session positions must be:
+
+\begin{itemize}
+\item Posted publicly for at least 20 school days prior to commencement
+\item Advertised with clearly stated selection criteria applied consistently to all applicants
+\item Free from subjective or arbitrary selection practices
+\end{itemize}
+
+Per session work:
+
+\begin{itemize}
+\item Cannot circumvent regular staffing obligations or replace regular appointment positions
+\item Teachers cannot hold supervisory per session positions
+\end{itemize}
+
+\subsection{Compliance and Monitoring Requirements}
+
+Schools and offices must maintain detailed records of all per session activities, including:
+
+\begin{itemize}
+\item Position postings
+\item Applicant materials submitted
+\item Applicant screening
+\item Selection decisions
+\item Timekeeping records
+\item Rating sheets
+\end{itemize}
+
+Records are subject to audit and review.
+
+%================================================================================
+\section{Earnings Limitations}
+
+\subsection{Hour Limitations}
+
+\subsubsection{Maximum Per Session Hours Without Waiver}
+
+\begin{itemize}
+\item \textbf{500 hours}: Principals, assistant principals, and education administrators
+\item \textbf{400 hours}: Teachers, secretaries, school psychologists, social workers, paraprofessionals, and other UFT pedagogic staff
+\end{itemize}
+
+\subsubsection{Multiple Activities}
+
+Employees may be employed in more than one per session activity during any per session year except those persons covered by certain collective bargaining agreements, which state they are not permitted to serve in more than one activity.
+
+\subsection{Violation Consequences}
+
+Employees may not exceed the annual limit set by their contract without obtaining a waiver prior to the activity being performed. Failure to obtain a valid waiver may result in withholding payment for hours worked beyond the maximum.
+
+\subsection{Standard Maximum Hours by Title}
+
+\begin{itemize}
+\item \textbf{Teachers, school secretaries, school social workers, psychologists, paraprofessionals, and other UFT titles}: Maximum 400 per session hours per year
+\item \textbf{Assistant Principals and Educational Administrators}: Maximum 500 per session hours annually
+\item \textbf{Principals}: Must have all per session work pre-approved by superintendents throughout the year (see Section 14.0)
+\end{itemize}
+
+These limitations ensure per session work remains supplemental to regular duties.
+
+\subsection{Hour Tracking and Management}
+
+\begin{itemize}
+\item Employees and supervisors must monitor per session hours throughout the year
+\item Exceeding hour limits without authorization can result in payroll adjustments and disciplinary action
+\item Hours are tracked on a fiscal year basis: July 1st - June 30th
+\item Unused hours do not carry over to the following year
+\item Schools and central offices should implement systems to review employee hour totals
+\end{itemize}
+
+\subsection{Payroll System Warnings}
+
+\subsubsection{How Warnings Work}
+
+When an employee's annual per session earnings reach 75\% of the standard cap according to the UFT or CSA agreements, the EIS T-Bank system automatically displays an alert during data entry. Pop-ups show employee details and current/remaining hours. This alert is for payroll secretaries/managers during bi-monthly entry or monthly cycles. Supervisors notify the employee to either pause the per session work or seek a waiver.
+
+\subsubsection{Cumulative Per Session Earnings Reports}
+
+Each school year, the Division of Human Resources per session staff manage and digitally publish a report of all NYCPS employees' cumulative per session earnings. This report is generated and reviewed after every bi-weekly pay period from the fall until the end of the school year. The report is disseminated to HR Directors and is published internally.
+
+%================================================================================
+\section{Posting and Advertising Requirements}
+
+\subsection{Hierarchy of Per Session Positions}
+
+The different posting levels of per session are school-based, district/borough-based, and citywide/central-based. This hierarchy is important because it ensures transparency, allows qualified candidates at appropriate levels to apply, and escalates opportunities when no suitable candidate is found at a lower level. All require a 20-day posting and OP-175 application.
+
+\subsection{Central-Based Positions}
+
+Central-based per session jobs support district, borough, or citywide programs, managed and approved by NYC Public Schools Division of Human Resources. These positions serve multiple sites throughout the city and may be managed by DHR, borough-based staff, or central administrative offices. Examples include citywide PSAL coaching and professional learning facilitation.
+
+\subsection{Supervisory Per Session and Principals}
+
+Central Hiring Managers (CHMs) and Human Resource Directors (HRDs) requesting supervisory per session must submit requests through the EIS Portal to their superintendent. There must be an approved bulk job on the office's Galaxy Table of Organization (TO).
+
+An advertisement for supervisory per session can only be posted centrally for a school if the CHM/HRD has already posted the ad within the school, borough, and district. The CHM/HRD should only make the request to the superintendent if there are no other supervisory applicants from the office or school for the specific job.
+
+Per session may not be granted to principals if other building supervisors apply and are deemed qualified for the job. For complete requirements regarding principal per session employment, including approval processes and restrictions, see Section 14.0.
+
+To request the ability within the EIS Portal to submit waivers and to obtain additional expanded security access, you must create a ticket with the DIIT Help Desk or contact Changes@schools.nyc.gov and/or SystemsAccess@schools.nyc.gov.
+
+\subsection{Per Session Funding and Budget Process}
+
+\subsubsection{Budget Scheduling}
+
+\textbf{Partners}: Principal, School Designee, Payroll Secretary, or Human Resources Director (HRD) for Borough/Citywide Offices (BCO)
+
+\textbf{Action}: Confirm that funding is available. Fully schedule a per session bulk job on your TO in Galaxy. The appropriate school staff must review and approve the job in Galaxy. The per session bulk job must be scheduled and approved by DHR before any per session work commences.
+
+\subsubsection{Creating Budget Codes for Per Session Positions}
+
+To fund a per session job, schools and offices must establish a bulk job in the Galaxy budgeting system before per session work begins. The bulk job creation process requires the following information:
+
+\begin{itemize}
+\item \textbf{Bulk Job ID}: A unique identifier for the per session activity
+\item \textbf{Budget code/Object code}: Coding that identifies the type of expenditure
+\item \textbf{Fiscal year}: The current school/fiscal year (July 1 - June 30)
+\item \textbf{Effective dates}: Start and end dates for the activity
+\item \textbf{Funding allocation}: Total dollar amount budgeted for the activity
+\end{itemize}
+
+Schools must confirm per session funding exists and create a bulk job in Galaxy with all budget details. The school must then request Borough Office review and approval. The bulk job must be scheduled in Galaxy before work begins to ensure proper payment.
+
+\subsection{Required Information in Postings}
+
+Position postings must include:
+
+\begin{itemize}
+\item Designated vacancy circular number for proper cataloguing
+\item Clear job description with duties relevant to desired title
+\item Specific qualifications required and preferred selection criteria
+\item Work schedule including days and hours
+\item Duration of assignment and hourly rate of pay
+\item Application procedures, submission deadlines, required documentation
+\item Contact information
+\item For remote work opportunities, specific remote work requirements and format (in-person, remote, or hybrid) as detailed in Appendix A
+\end{itemize}
+
+Selection criteria must be explicitly stated so applicants understand the decision-making process.
+
+\subsection{Required Budget Approval Disclaimer}
+
+All per session positions must include the following disclaimer related to the job budget:
+
+\begin{quote}
+``Contingent Upon Budget Availability and Programmatic Approval''
+\end{quote}
+
+This ensures that all applicants know that the position is subject to budget approval/availability and may be withdrawn at any time.
+
+\subsection{20-Day Posting Requirement}
+
+All per session positions must be posted publicly for at least \textbf{20 school days} prior to commencement. This requirement covers both physical postings and digital publications.
+
+\subsubsection{Emergency Expedited Posting Steps}
+
+\begin{itemize}
+\item \textbf{School-based expedited postings}: Must be approved by school's UFT chapter leader
+\item \textbf{Central-based expedited postings}: Must be approved by DHR central per session staff
+\end{itemize}
+
+All expedited postings require written documentation and significant justification.
+
+\subsection{Ensuring Fair Access to School-Based Postings}
+
+School-based postings must be made in visible locations within school, and it is recommended that postings also be emailed to all staff:
+
+\begin{itemize}
+\item Must be distributed through multiple channels including staff bulletin boards, email announcements, faculty meetings
+\item Schools should maintain posting logs documenting when/where positions were advertised
+\item Digital postings can supplement but not replace physical postings in school buildings
+\end{itemize}
+
+Central offices should maintain digital logs tracking when/where each position was posted. DHR maintains extensive annual catalogues of all central-based position posting requests and assigns vacancy circular numbers.
+
+\subsection{Posting Escalation Process}
+
+\subsubsection{Hierarchy of Posting Levels}
+
+\begin{itemize}
+\item \textbf{Level 1}: School level - Principal advertises in school for 20 school days
+\item \textbf{Level 2}: District/borough level - If no qualified candidate found, moved to district level, then to borough level through HR Directors
+\item \textbf{Level 3}: Citywide level - For positions serving multiple districts/boroughs, managed and published centrally by DHR
+\end{itemize}
+
+\textbf{Important}: School-based postings are NOT advertised centrally. All postings at every level must contain clear job details, qualifications, and selection criteria.
+
+\subsection{Posting Requirements and Timeline}
+
+\textbf{Partners}: Principal, School Designee, or Human Resources Director (HRD) for Borough/Citywide Offices (BCO)
+
+\textbf{Action}: The per session vacancy must be posted at least 20 school days before the start of the per session activity. Holidays, weekends, and summer do not apply toward the 20-school day posting requirement. Additionally, positions may be posted pending budget approval.
+
+\subsection{Posting Creation Process}
+
+\textbf{Partners}: Principal, School Designee, or Human Resources Director (HRD) for Borough/Citywide Offices (BCO)
+
+\textbf{Action}: Create comprehensive posting with all required elements.
+
+\subsubsection{Numbering System}
+
+All per session employment opportunities must be consecutively numbered for each per session year (school year). For auditing purposes, it is suggested that a hard copy of each posting be kept in a binder or folder for record keeping. The postings should be filed in numerical order.
+
+\subsubsection{School-Based Per Session Template Usage}
+
+You are able to use the Recommended School-Based Per Session Posting Template provided by DHR.
+
+\subsubsection{Mandatory Posting Elements}
+
+All postings must include:
+
+\begin{itemize}
+\item Post Date
+\item Deadline Date
+\item Title of the Position
+\item Number of Positions Available
+\item Location of the Activity
+\item Eligibility Requirements
+\item Required License Area
+\item Selection Criteria (Required Qualifications and Preferred Qualifications)
+\item Clear statement of Duties and Responsibilities
+\item Work Schedule including:
+  \begin{itemize}
+  \item Total number of per session hours to be worked per position
+  \item When the per session activity occurs (weekend, summer, or during school recess)
+  \item Indication of lunch/break period (1/2 hour, 45 minutes, or 1 hour)
+  \end{itemize}
+\item Hourly Rate of Pay
+\item Application Instructions
+\item Statement: ``This per session assignment is subject to budget availability and programmatic approval.''
+\item Reference to Chancellor's Regulation C-175
+\item Approver's Name and Title
+\item Contact Information for Inquiries
+\item Official Non-Discrimination Policy statement
+\item Equal Opportunity Employer (M/F/D) tagline
+\end{itemize}
+
+\subsection{Posting Creation and School Approval}
+
+The school principal or designated supervisor must create the per session posting using the approved school-based template. The posting must be displayed in a prominent location within the school (e.g., main office, staff bulletin board, or school website if accessible to all staff) for a minimum of 20 school days prior to the start of the activity. No external submission or vacancy circular number (VC) is required.
+
+\subsection{Deadline Restrictions}
+
+\subsubsection{Current Year Only}
+
+You can only request a posting within the current school/per session year (July 1st - June 30th):
+
+\begin{itemize}
+\item \textbf{Summer vacancies}: Maximum deadline of August 31st with minimum 20 school days posting prior to June 30th
+\item \textbf{Fall vacancies (yearlong)}: Maximum deadline of December 31st; after January 1st, extend with maximum June 30th deadline
+\item \textbf{Spring vacancies}: Maximum deadline of June 30th
+\end{itemize}
+
+\subsection{School-Based Posting Distribution}
+
+\textbf{Partners}: Principal, School Designee, or Human Resources Director (HRD) for Borough/Citywide Offices (BCO)
+
+\textbf{Action}: Ensure equitable posting distribution and visibility.
+
+\begin{itemize}
+\item The approved advertisement will be posted on the school premises for a minimum of 20 school days
+\item The advertisement may also be circulated internally via email to all staff members
+\end{itemize}
+
+If there is an insufficient number of qualified candidates in the cohort, the school principal or designee may repost the vacancy or escalate it to the district or borough level. In extreme emergencies, where time is a factor or funding is limited to a specific time period, a shorter school-based posting period is permitted only with approval from the appropriate labor union (UFT/CSA). The minimum posting time with approval is ten (10) days.
+
+%================================================================================
+\section{Application and Selection Process}
+
+\subsection{How to Apply to Per Session Jobs}
+
+Prospective applicants must:
+
+\begin{enumerate}
+\item Complete OP-175 form - Fill out completely and sign
+\item Submit any other required materials as outlined in the posting
+\item Submit by deadline to the person/office listed in the posting
+\item Meet all qualifications listed in the job advertisement
+\end{enumerate}
+
+\subsection{OP-175 Application Form Requirements}
+
+The OP-175 form is the standard application document for all per session positions within NYC Public Schools. This form collects essential information about the applicant's qualifications and availability.
+
+Applicants must:
+
+\begin{itemize}
+\item Complete all sections of OP-175 form
+\item Submit by application deadline
+\item Incomplete applications may be rejected
+\end{itemize}
+
+The form serves as a record of the applicant's interest and provides documentation for selection process retention rights claims.
+
+\subsection{Application Submission Requirements}
+
+\textbf{Partners}: Applicable UFT and CSA staff
+
+\textbf{Action}: All applications must include completed OP-175, cover letter, and resume.
+
+\subsection{Screening and Selection Standards}
+
+Selection criteria must be:
+
+\begin{itemize}
+\item Job-related and objective
+\item Applied consistently to all applicants
+\item Focused on relevant qualifications, experience, and demonstrated ability
+\end{itemize}
+
+Selection may be based on factors such as:
+
+\begin{itemize}
+\item Relevant experience
+\item Additional certifications
+\item Previous per session performance
+\item Specific skills matching program needs
+\end{itemize}
+
+Personal relationships, subjective preferences, or arbitrary factors \textbf{cannot} be used in the selection process.
+
+\subsection{Preferred vs. Required Selection Criteria}
+
+Selection criteria can be both required and/or preferred:
+
+\begin{itemize}
+\item \textbf{Required criteria}: Necessary minimum standards
+\item \textbf{Preferred criteria}: Desired qualities and qualifications
+\end{itemize}
+
+All applicants must meet the selection criteria to be considered. Preferred criteria can be used to further refine the selection. When all qualifications are equal, seniority of applicant determines selection.
+
+\subsection{Selection Criteria and Process}
+
+\textbf{Partners}: Principal, School Designee, or Human Resources Director (HRD) for Borough/Citywide Offices (BCO)
+
+\textbf{Action}: The selection of staff for per session employment should be based on how the OP-175 form, resume, and cover letter compare to the qualifications and requirements of the per session posting to select the most highly qualified candidates.
+
+\textbf{Please Note}: Per diem employees should not be considered for a per session job unless all other full-time, appointed, and qualified applicants are considered first. Additionally, non-DOE employees are not eligible to be considered for per session work.
+
+\subsection{Documenting Selection Decisions}
+
+Schools and central offices must maintain records of:
+
+\begin{itemize}
+\item All applications received
+\item Evaluation process used
+\item Rationale for selection decisions
+\item Any letters of selection or rejection
+\end{itemize}
+
+Documentation protects against challenges and demonstrates compliance with fair selection practices (see Section 9.0). Unsuccessful applicants should be notified of selection decisions in a timely manner.
+
+\subsection{Communications for Selections}
+
+\subsubsection{Communication Requirements}
+
+All applicants are notified in writing through email about their selection status for each per session activity.
+
+Hiring managers must:
+
+\begin{enumerate}
+\item Review all applications and select finalists
+\item Provide applicants with hiring details and the start date
+\item Notify rejected or interviewed-but-not-hired applicants in writing
+\item Keep records of all communications
+\end{enumerate}
+
+%================================================================================
+\section{Employment Approval Process}
+
+\subsection{School-Based Position Approvals}
+
+Most school-based per session positions can be approved by school principal, who has authority to establish programs meeting identified educational needs within school community. Principals must ensure that:
+
+\begin{itemize}
+\item Proposed per session activities align with school priorities
+\item Activities have adequate supervision and comply with all applicable regulations
+\item People selected are eligible to work and meet all qualification requirements
+\item Budget considerations including available funding are evaluated
+\end{itemize}
+
+\subsection{Timecard Review and Approval Process}
+
+\textbf{Partners}: Principals, school designees, and Human Resources Directors for all staff except principals themselves. For principal per session, the respective superintendent must review and approve their request in the EIS Portal before per session service can be entered.
+
+	extbf{Action}: The recording of time must comply with Chancellor's Regulation C-604.
+
+\subsubsection{Review Process}
+
+The per session timecard/timesheet and supporting documentation are reviewed and approved. For principal per session, the respective superintendent must review and approve their request in the EIS Portal before per session service can be entered.
+
+\subsection{Payroll Entry}
+
+Once the per session timecard/timesheet and supporting documentation have been reviewed and approved, the payroll secretary is responsible for entering and submitting the per session time in the TBNK payroll system utilizing the applicable Galaxy per session job bulk job code that is provided to them by the principal or designee.
+
+\subsection{Timeline}
+
+Timekeeping must be entered within the payroll period of the hours worked.
+
+%================================================================================
+\section{Documentation and Timekeeping}
+
+\subsection{Timecard Submission Requirements}
+
+\textbf{Partners}: Per session staff and program coordinators
+
+\textbf{Action}: Per session employees are responsible for submitting a timecard and/or timesheet and keeping track of their start and end time and ensuring the timesheet submissions comply with the posting requirements such as number of allowable hours. Timecards/sheets must be utilized whenever possible.
+
+\subsubsection{Submission Deadlines}
+
+Employees must submit their timecards/sheets before each payroll timekeeping/approval deadline to ensure the timekeeper has sufficient time to enter the information.
+
+\subsubsection{Continuous Submission}
+
+Employees may not hold all their timecards/sheets for submission at one time. This requirement applies to all per session employees, including principals. Principals must submit their timesheets to their Superintendent for per session work within one (1) school day of the per session period immediately following each period of service, just like all other per session employees. Superintendents or their designees must approve and sign submitted principal timesheets.
+
+\subsubsection{Helpful Hint}
+
+Employees may want to keep a spreadsheet for the per session hours and locations they work. This spreadsheet will prevent inadmissible submissions due to overlapping timesheets for multiple work locations.
+
+\subsection{Sick Time Accrual and Usage Procedures}
+
+\textbf{Partners}: Per session employees, payroll secretaries, principals, and school designees
+
+\textbf{Action}: Sick time management and transfer procedures for per session activities.
+
+\subsubsection{Accrual Rates}
+
+\textbf{School Year Activities}: Sick time accrued at rate of one session per 20 consecutive sessions with no break in service for same per session activity.
+
+\textbf{Summer Activities}: Sick time accrued at rate of one session for each month of service.
+
+\subsubsection{Usage Requirements}
+
+\begin{itemize}
+\item Employees and retirees may use accrued time during the same activity
+\item Earned per session CAR time should be medically certified with appropriate documentation
+\item CAR time may be used without medical certification if employee is ill (self-treated)
+\item For summer activities: If employee earns two sessions of CAR time, one absence may be self-treated, but second absence must be medically certified
+\end{itemize}
+
+\subsubsection{Transfer Procedures}
+
+\begin{itemize}
+\item Employee responsibility to inform per session payroll secretary of earned CAR
+\item Payroll secretary verifies, calculates, and prepares appropriate transfer form
+\item Transfer to Q-Bank (Q742 payroll) must occur within 30 non-holiday school days at end of activity, end of school year, or beginning of following school year
+\item Employee must follow up with home school payroll secretary for completion
+\item CAR requests may only go back two school years for retroactive credit
+\end{itemize}
+
+\subsubsection{Documentation Requirements}
+
+\begin{itemize}
+\item Use Per Session Unused Sick Time Transfer Form (OP-1755-5191)
+\item Payroll secretary must verify pedagogue earned per session CAR before Q-Bank entry
+\item Payroll secretary must track sick time for future per session activities
+\item Retirees should contact central hiring team's payroll secretary for guidance
+\end{itemize}
+
+\subsection{Per Session Unused Sick Leave Transfer Form}
+
+Eligible per session employees accrue sick leave, according to union contracts and NYC Public Schools policy, which can be used for approved illness absences. Employees request transfer of unused time after the activity ends using the OP-1755-5191 form.
+
+\subsubsection{Accrual Calculations}
+
+\begin{itemize}
+\item \textbf{Regular school year}: One sick leave session hour earned for every 20 consecutive sessions worked
+\item \textbf{Summer programs}: Must work first 5 days of July program and entire month of July to earn one session; additional session earned if working full August program
+\end{itemize}
+
+\subsubsection{Per Session Unused Sick Leave Transfer Process}
+
+\begin{itemize}
+\item Employees should submit all forms, timesheets, and notes promptly to avoid payment holds
+\item Unused sick leave accruals must be calculated properly by the employee
+\item The employee's payroll secretary verifies the submitted OP-1755-5191 form and should process within 5 business days
+\item Unused sick leave transfers to the employee's CAR (Cumulative Absence Reserve)
+\item Records should be retained for 3 years for best practice
+\item Pay may be deducted for unexcused absences
+\end{itemize}
+
+\subsection{Document Maintenance Requirements}
+
+\textbf{Partners}: Principals, School Designees, or Human Resources Director (HRD) for Borough/Citywide Offices (BCO)
+
+\textbf{Action}: All documents pertaining to the per session work must be on file at the school, such as:
+
+\begin{itemize}
+\item The posting
+\item OP-175 forms
+\item Selections and criteria
+\item Timesheets
+\item Sign-in sheets
+\item Timecards
+\item Employee ratings
+\item Etc.
+\end{itemize}
+
+Timecards must be utilized whenever possible. All documents must be retained for review and inspection by financial monitors or auditors.
+
+\subsection{Required Documentation and Record Keeping}
+
+Schools and central offices must maintain comprehensive records of all per session activities including:
+
+\begin{itemize}
+\item Position postings and applications
+\item Selection documentation and timesheets
+\item Program evaluations
+\end{itemize}
+
+Accurate timekeeping is essential for proper payment and compliance monitoring. Employees must record actual hours worked, and supervisors must verify timesheet accuracy.
+
+\subsection{Cataloguing School-Based Per Session Jobs}
+
+\begin{itemize}
+\item School-based job postings are archived internally by each school for record-keeping
+\item Each school-based per session job is assigned a unique vacancy circular number per the school year
+\item Every job posting is reviewed for eligibility, policy compliance, and documentation requirements before being approved
+\end{itemize}
+
+Timesheets must be completed accurately and submitted on time according to established payroll schedules. Late or incomplete timesheets may result in delayed payment or payroll corrections. Both employees and supervisors have responsibilities for timesheet accuracy. Employees must record hours honestly; supervisors must verify recorded hours reflect actual work performed. Electronic timesheet systems should be used according to established procedures.
+
+\subsection{Per Session Service Rating Report}
+
+The OP-150 form (Individual Rating Report of Per Session Service) is the official form used by supervisors to evaluate and document employee performance in per session activities at the conclusion of each assignment. Supervisors are to provide objective performance assessments based on stated job criteria. Completed ratings may be required before final per session payment is issued.
+
+\subsection{Performance Rating Process}
+
+\subsubsection{Rating Requirements and Process}
+
+\textbf{Partners}: Principal, School Designee, or Human Resources Director (HRD) for Borough/Citywide Offices (BCO)
+
+\textbf{Action}: Rate all per session employees. Only applicable UFT staff who earn satisfactory ratings for two consecutive years for a specific per session activity may receive retention rights. Not all UFT members are eligible for retention rights; please refer to the individual contracts.
+
+\subsubsection{Unsatisfactory Ratings}
+
+Staff who are rated unsatisfactory may not work on another per session activity.
+
+\subsubsection{Documentation}
+
+It is incumbent upon the per session supervisor to document poor attendance and performance to support the rating.
+
+\subsection{Required Remote Per Session Documentation}
+
+For complete guidelines on authorized remote activities, requirements, and procedures, see Appendix A. Key documentation requirements include:
+
+\begin{itemize}
+\item \textbf{Posting}: Must list schedule, format (remote/hybrid), and exact hours by type
+\item \textbf{Work Log}: Detailed record of activities with evidence of completed work
+\item \textbf{Timesheets}: Remote work requires a timekeeping form with date, time, and hours
+\item Supervisors must review logs and records
+\item No holiday work unless pre-approved and noted in posting
+\item \textbf{Rating}: Use OP-150 form to rate remote per session work
+\item \textbf{Oversight}: Superintendents/central offices may request postings, timesheets, and work logs at any time during the activity or afterwards
+\end{itemize}
+
+\subsection{Field Trip Documentation and Posting Standards}
+
+All postings must clearly state which hours are compensable as per session work. Hours must align to actual per session duties performed rather than mere presence on the trip. Any duties (related to travel supervision during transit, student support services) must be explicitly described with corresponding title requirements. For detailed guidelines on field trip per session policies, requirements, and compensation, see Appendix B.
+
+Schools must maintain clear records showing the relationship between posted duties and actual hours worked. All documentation and timesheets must distinguish between compensable per session hours and voluntary participation time.
+
+%================================================================================
+\section{Per Session Waivers}
+
+\subsection{Purpose}
+
+Waivers are used to justify the need of an employee (except for principals) who will exceed the maximum allowable hours (400) in one or a combination of per session activities.
+
+\subsection{Multiple Activities}
+
+If an employee is working in multiple activities, it is recommended that the principal request a waiver for each activity to ensure that the adequate number of hours have been approved to account for each activity.
+
+\subsection{Warning System}
+
+The Per Session Payroll Secretary must continue collecting timesheets for employees working in the activity and enter per session payroll in the TBNK Per Session Payroll system. The Payroll Secretary will receive a warning message through the TBNK Per Session Payroll screen after an employee has worked 75\% of their regular per session cap. This message should be shared with the principal/hiring manager so they can consult with the employee to determine if a waiver will be needed.
+
+\subsection{Number of Waivers}
+
+There is no limit to the number of waivers that can be requested on behalf of an employee. However, please be mindful that principals/school designees must review the online Per Session Report to identify the number of per session hours and activities worked by the employee from the beginning of the per session year to determine if the request is reasonable.
+
+\subsection{Documentation Requirements}
+
+Waivers submitted with a maximum 100-hour request will not be approved without proper documentation and justification.
+
+\subsection{Waiver Submission Requirements}
+
+\subsubsection{Responsibility}
+
+Requests for waivers for all per session services, except for principal per session services, are the principal's/school designee's responsibility in respective school sites or locations. They must justify in writing, via the waiver form, their request to grant a waiver to an employee with multiple per session activities or an excessive number of total hours. Justification is particularly important if other applicants are available and have not worked in another per session activity during the same per session year.
+
+\subsubsection{Documentation Retention}
+
+The principal/school designee must retain at the school level all documentation supporting the decision to select the applicant, such as evidence that there were no other equally qualified applicants who did not require a waiver because they had not worked or had worked fewer hours to date. Such documentation may be requested in the event of an audit or grievance.
+
+\subsubsection{Electronic Submission}
+
+Each per session activity requires its own waiver. The principal must electronically file the waiver through the online EIS Portal Per Session Waivers System.
+
+\subsubsection{Required Information}
+
+\begin{itemize}
+\item Bulk job ID number/code which refers to the specific activity being performed
+\item Accurately and realistically estimated number of additional hours needed for the activity
+\item Justification for the waiver request, including why no other qualified personnel are available to perform the activity
+\item Proper documentation and special justification for requests of 100 hours
+\item Attestation questions regarding position and number of applications received
+\end{itemize}
+
+\subsubsection{Submission Timeline}
+
+Every waiver request must bear the signature of the appropriate supervisor and must be submitted reasonably in advance to allow time for appropriate action.
+
+\subsection{Waiver Review and Approval Process}
+
+\subsubsection{Review Process}
+
+Once the principal certifies the waiver information and submits the waiver, it is routed to the HRD or DHR partner for review. When reviewing a waiver request, the HRD must consider the information provided by the principal in the request to determine if there are other employees in the per session activity who are qualified, can complete the per session activity, and do not require a waiver.
+
+\subsubsection{HRD/DHR Review}
+
+The HRD/DHR partner reviews the online Per Session Report to identify the number of per session hours and activities worked by the employee from the beginning of the per session year (July 1st) to determine if the request is reasonable.
+
+\subsubsection{Approval Authority}
+
+\begin{itemize}
+\item \textbf{For school-based per session positions}: The Human Resources Director or DHR partner reviews and approves the waivers
+\end{itemize}
+
+\subsubsection{Confirmation}
+
+Once a waiver is approved, a confirmation email is sent to the requestor enabling payment beyond the waiver cap.
+
+\subsubsection{Important Notes}
+
+\begin{itemize}
+\item Individuals who have been approved for waivers in prior years must resubmit new waiver applications each year if they exceed the maximum allowable hours
+\item Employees who exceed the maximum number of hours without an approved waiver will not be permitted to receive per session payment
+\item Once a waiver is approved, it takes approximately 24 hours before payment may be processed
+\item Any pedagogic employee who seeks per session service that would result in a total number of hours during the per session school year that exceeds the maximum number of hours permitted under this regulation must obtain a waiver before accepting or beginning to work in such per session assignment
+\end{itemize}
+
+\subsection{When Waivers Are Required}
+
+In many circumstances, employees request waivers to exceed annual hour limitations. These requests must:
+
+\begin{itemize}
+\item Be digitally submitted on the EIS Portal
+\item Accurately estimate the number of hours
+\item Demonstrate compelling educational need
+\item Show that no other qualified personnel are available
+\item Receive appropriate approval
+\item Requests CANNOT exceed 100 hours
+\end{itemize}
+
+Waivers are commonly granted when justified by educational need and proper documentation.
+
+\subsection{What HR Directors or Central Staff Review When Assessing Waivers}
+
+\begin{itemize}
+\item Copy of job advertisement and justification for additional hours
+\item Documentation that no other qualified staff are available
+\item Employee's total per session hours worked to date in fiscal year
+\item Timesheets and attendance records
+\item Evidence that all qualified applicants without waivers have been considered first
+\item Written justification from hiring manager explaining compelling educational need
+\end{itemize}
+
+Even with waivers, employees should not exceed absolute maximum of 800 total per session hours in a single year. Employees who do so are automatically flagged for audit and review.
+
+\subsection{Limitations on Waivers}
+
+\subsubsection{Waiver Hour Levels}
+
+\begin{itemize}
+\item \textbf{Pedagogic titles}: Waivers available for hours beyond 400, up to maximum 800 hours per year
+\item \textbf{Assistant Principals/Educational Administrators}: Waivers available for hours beyond 500, up to maximum 800 hours per year
+\end{itemize}
+
+\subsubsection{Waiver Approval Authority}
+
+\begin{itemize}
+\item \textbf{School-based positions}: Human Resources Director approval required
+\item \textbf{Central office positions}: Division of Human Resources citywide per session staff approval required
+\end{itemize}
+
+\subsubsection{Secondary Waiver Cap}
+
+Per session waiver requests over the 800-hour secondary per session waiver cap are redirected to Central DHR for review and scrutiny. Waiver requests of over 800 hours require additional justification before the activity is performed. There is no guarantee that such hours will be approved; therefore, employees should not engage in any related activity before approval is granted. If the employee's secondary waiver request is denied, the employee will not be able to be compensated.
+
+\subsubsection{Special Notes}
+
+\begin{itemize}
+\item \textbf{PSAL WAIVERS} are exclusively approved by HR Directors
+\item Requests for waivers must be submitted reasonably in advance to allow time for review and appropriate action
+\item It is the responsibility of the principal/school designee to ensure Chancellor's Regulation C-175 and all applicable collective bargaining agreements are adhered to when posting, selecting, and performing per session activities
+\end{itemize}
+
+\subsection{Sabbatical Leave Waivers}
+
+\subsubsection{External Work}
+
+To approve a request to perform work external to the DOE while on a sabbatical leave of absence, one must submit proof of the activity for the past three years indicating that during one's sabbatical, one is working the same or fewer hours than when one is not on sabbatical. The submission should include previous tax returns for private businesses or a letter from the employer on official letterhead stating three years prior employment and hours worked.
+
+\subsubsection{Internal DOE Work}
+
+To approve a request to perform work internally within the DOE while on a sabbatical leave of absence, one must provide the above documentation AND obtain a letter from the prospective central office, division, and/or school. The letter must include:
+
+\begin{itemize}
+\item Confirmation that the hiring entity cannot fill the position with an otherwise qualified DOE employee who is NOT on sabbatical
+\item The proposed work hours and schedule
+\end{itemize}
+
+%================================================================================
+\section{Retention Rights}
+
+\subsection{Understanding Retention Rights}
+
+Retention rights are claimed by applicants using the OP-175 form. Retention rights may only be claimed by eligible staff who have served in specific per session activities for at least two consecutive years of satisfactory service.
+
+Employees who successfully complete per session assignments may have retention rights for similar positions in subsequent years, providing continuity and recognizing effective performance.
+
+Retention rights are not guaranteed and may be superseded by changing program needs or budget constraints.
+
+\subsection{Restrictions on Retention Rights}
+
+\begin{itemize}
+\item Employees may claim retention rights to only one per session activity per year
+\item Employees must reapply annually and claim retention rights on the OP-175 form
+\item Remain subject to posting requirements and participate in fair selection process each cycle
+\item Retention honored only if position still exists and employee continues to meet all qualifying criteria
+\item Program leaders are responsible for ensuring those with retention rights are selected before any other applicant
+\item \textbf{CSA employees cannot claim per session retention rights}
+\end{itemize}
+
+\subsection{Publishing Central-Based Per Session Retention Rights Claims}
+
+Retention rights claimed by per session employees remain active for the remainder of the school year. Each fall season, the Division of Human Resources citywide per session staff will aggregate from central-based hiring managers (CHMs) and publish a comprehensive list of employees who claimed retention rights working central-based per session positions during recent summer activities. This list is disbursed to all CHMs as well as HR Directors to ensure that employees do not violate retention rights restrictions at the central- or school-based levels.
+
+\subsection{More Guidelines on Retention Rights}
+
+\subsubsection{Cancelled Programs}
+
+Retention rights may apply if program returns in similar, substantive way. Activity must be deemed the same or substantially similar to the original program. Final determination based on comparable responsibilities, objectives, and structure.
+
+%================================================================================
+\section{Compensation and Payment}
+
+\subsection{Current Contract Rate Policies}
+
+Compensation for per session work is established by collective bargaining agreements between NYC Public Schools and employee unions, e.g., United Federation of Teachers (UFT) or Council of School Supervisors and Administrators (CSA).
+
+\begin{itemize}
+\item Rates are periodically updated through contracts
+\item Rates vary depending on job title, assignment type, and negotiated contract terms
+\item Staff can check current rates by visiting UFT and CSA websites or the DFO Payroll Portal
+\item Administrators and employees should always reference these resources or consult HR team to confirm current contract rates
+\item The full UFT and CSA rate tables are published on the DFO Payroll Portal
+\end{itemize}
+
+\subsection{Payroll Procedures}
+
+Payroll operates on a regular schedule. Please note that all dates may change. For the most current payroll information, check:
+
+\begin{itemize}
+\item PDPS (Per Diem/Per Session) Payroll Bulletin Boards
+\item TBNK Per Session Payroll Bulletin Board
+\item NYCPS InfoHub
+\item DFO Payroll Portal
+\item HR Connect
+\end{itemize}
+
+\subsubsection{Staff and People Responsible}
+
+\begin{itemize}
+\item Per session payments processed according to per session regular payroll cycles
+\item Employees should review pay statements carefully to identify issues
+\item Tax withholdings and benefit deductions apply to per session earnings same as regular salary
+\end{itemize}
+
+\subsubsection{Payroll Process Discrepancies}
+
+The Division of Financial Operations (DFO) Payroll Unit processes payments in collaboration with principals, timekeepers, and central HR teams. Payment discrepancies and payroll portal errors require a review of bulk job codes, dates, forms, and waiver details (see Section 10.0). If errors persist after review, DFO should be contacted.
+
+%================================================================================
+\section{Principal Per Session Employment}
+
+\subsection{Overview}
+
+\subsubsection{Differences in Principal Per Session Processes}
+
+When principals themselves seek per session employment, different rules apply compared to other staff members.
+
+\subsubsection{Key Requirements}
+
+\begin{itemize}
+\item Principals must obtain superintendent approval before any per session work begins
+\item Approval required for both school-based and central-based per session activities
+\item No work can begin until electronic approval is received
+\item After 500 per session hours annually for principals, continued superintendent approval is required along with potential DHR review
+\item Principals cannot claim retention rights for any per session activities
+\end{itemize}
+
+\subsection{Principal Per Session on the EIS Portal}
+
+All principal per session requests must be submitted through the EIS Portal system. To start the request process, navigate to the Principal Per Session option under the Per Session tab.
+
+Principal per session requests will be assigned different Status Levels, including:
+
+\begin{itemize}
+\item \textbf{Saved}: Draft created but not submitted
+\item \textbf{Pending}: Submitted and awaiting superintendent review
+\item \textbf{Approved}: Authorized to work and receive payment
+\item \textbf{Disapproved}: Denied; principal cannot work this assignment
+\end{itemize}
+
+\subsection{School-Based Principal Per Session Requirements}
+
+For school-based per session positions, principals must follow special procedures:
+
+\subsubsection{Priority Requirements}
+
+\begin{itemize}
+\item Position must be posted in the school for 20 school days
+\item All supervisory staff below principal level must be offered the position first
+\item Assistant principals and other administrators have priority over principals
+\end{itemize}
+
+\subsubsection{Required Documentation}
+\begin{itemize}
+\item Copy of the per session advertisement with program details
+\item Letters from assistant principals declining the position (if applicable)
+\item Confirmation that other supervisors were notified and declined
+\item Verification that dates and hours fall within appropriate range
+\end{itemize}
+
+\subsection{Superintendent Review Process}
+
+Superintendents must review several elements before approving principal requests.
+
+\subsubsection{Required Review Items}
+
+\begin{itemize}
+\item Valid per session advertisement with program number, dates, and hours
+\item Principal's total per session hours for the year
+\item Budget availability and program approval status
+\item Assistant principal declination letters for school-based positions
+\end{itemize}
+
+\subsubsection{Approval Methods}
+
+\begin{itemize}
+\item \textbf{Direct email approval}: Respond ``Approved'' or ``Disapproved'' to request email
+\item \textbf{EIS Portal approval}: Log in and approve/disapprove through system
+\end{itemize}
+
+\subsection{Special Restrictions for Principals}
+
+\subsubsection{Work Restrictions}
+
+\begin{itemize}
+\item Cannot work per session on holidays under any circumstances
+\item Cannot take annual leave day and work per session the same day
+\item Must bank holiday or annual leave days for use at another time
+\item All work must occur outside regular principal duties
+\end{itemize}
+
+\subsubsection{Hour Limitations}
+
+\begin{itemize}
+\item Superintendents approve hours up to 500 hours annually as a standard
+\item After 500 hours, superintendents may continue to approve additional hours with DHR review as needed
+\item No retention rights - must reapply annually for all positions
+\end{itemize}
+
+%================================================================================
+\section{DC37 Extra Hours}
+
+\subsection{DC37 Extra Hours Overview}
+
+DC37 extra hours assignments refer to additional hourly work for non-pedagogical staff, such as clerical, custodial, security, and cafeteria personnel, represented by the DC37 union. Common titles include school aides, lunchroom staff, clerical workers, and custodial support roles. Assignments are typically managed by school supervisors or central hiring managers, with staff responsible for adhering to all DC37-specific protocols.
+
+\subsection{DC37 Extra Hours Payroll}
+
+Extra hours positions have similar application, approval, and documentation processes to per session employment, but the payroll banking procedures are different. Earnings on extra hours per year are governed by the DC37 union contract and Office of Payroll Administration.
+
+\textbf{Family Workers} are the only DC37 title still paid at a per session rate.
+
+\subsection{Policy for Advertising DC37 Extra Hours Positions}
+
+\begin{itemize}
+\item Job postings and approvals follow similar processes to instructional per session jobs
+\item All employees must use timesheet documents and payroll systems for proper reporting
+\item Designed for operational roles---not instructional duties
+\item All requests, applications, and approvals must fully comply with DC37 union policy
+\item Must be posted for a minimum of seven (7) school days
+\item Selection based on qualifications and seniority when qualifications are equal
+\end{itemize}
+
+%================================================================================
+\section{Links and Resources}
+
+\subsection{Primary Regulations}
+
+\begin{itemize}
+\item \textbf{Chancellor's Regulation C-175: Per Session Employment}
+\item \textbf{Chancellor's Regulation C-604: Timekeeping}
+\item \textbf{Chancellor's Regulation C-650: Per Session Employment during Sabbatical Leave}
+\item \textbf{Chancellor's Regulation C-175 - Complete per session employment regulations}
+\item \textbf{NYCPS Per Session Webpage - Public overview on per session jobs}
+\end{itemize}
+
+\subsection{System Access}
+
+\begin{itemize}
+\item \textbf{EIS Portal} - Waiver submissions/approvals and principal per session requests
+\item \textbf{InfoHub: Per Session Resources} - Comprehensive per session manuals, FAQs, resource documents, and templates
+\item \textbf{InfoHub: Per Session Employment Verification} - Information about verification requests
+\item \textbf{DFO Payroll Portal} - Additional payroll resources and employee records
+\item \textbf{HR Connect: Per Session Reference Guide} - General information about per session
+\item \textbf{HR Connect: Managing Hours, Waivers, and Requests} - Regarding waivers and principal requests in the EIS Portal
+\item \textbf{School Workflow Management SharePoint Site} (relevant access required)
+\item \textbf{Field HRD Hub SharePoint Site} (relevant access required) - Featuring per session resources for HRDs
+\item \textbf{HR School Support SharePoint site} - Featuring resources and payroll period pedagogue earnings reports
+\item \textbf{Galaxy} - Employment budget management portal
+\item \textbf{Payroll Bank T-Bank} (Q756 and Q747)
+\end{itemize}
+
+\subsection{Forms and Templates}
+
+\begin{itemize}
+\item \textbf{OP-175}: Per Session Application and Retention Rights Form
+\item \textbf{OP-150}: Per Session Rating Form
+\item \textbf{OP-198}: Application for Excuse of Absence for Personal Illness
+\item \textbf{OP-1755-5191}: Per Session Unused Sick Time Transfer Form
+\item \textbf{Item No. 25-5200.00.9}: Hourly Professional Personnel Time Report/Timesheet
+\item \textbf{Recommended School-Based Per Session Posting Template}: Published by DHR citywide per session staff
+\end{itemize}
+
+\subsection{Additional Resources}
+
+\begin{itemize}
+\item \textbf{Central-Based Per Session SOPM}
+\item \textbf{Per Session FAQs}
+\item \textbf{Principal Per Session FAQs}
+\item \textbf{DHR Per Session Presentations}
+\end{itemize}
+
+%================================================================================
+\section{Contact Information}
+
+\subsection{SOPM Owner}
+
+\textbf{Division of Human Resources Citywide Per Session Staff}
+
+\subsection{Contact Information}
+
+Principals, their school designees, and Human Resources Directors for Borough/Citywide Offices (BCO) are the subject matter experts for school-based per session procedures. DHR citywide per session staff are also available to provide support and answer questions.
+
+\textbf{Email}: PerSessionStaff@schools.nyc.gov
+
+\subsection{Additional Support}
+
+\textbf{DIIT Help Desk for EIS Portal access}
+\begin{itemize}
+\item Changes@schools.nyc.gov
+\item SystemsAccess@schools.nyc.gov
+\end{itemize}
+
+\textbf{Telephone}: Contact your respective Borough/Citywide Offices (BCO) HR director for assistance with any of the procedures outlined in this manual.
+
+\subsection{Key Contacts for Per Session Inquiries}
+
+\textbf{For questions about per session policies, procedures, or position approvals:}
+\begin{itemize}
+\item Citywide Per Session Staff: 718-935-4075
+\item Email: PerSessionStaff@schools.nyc.gov
+\end{itemize}
+
+\textbf{Payroll inquiries related to per session payments, timesheet issues, or payment discrepancies:}
+\begin{itemize}
+\item Phone: 718-935-2236
+\item Email: PDPSPayroll@schools.nyc.gov
+\end{itemize}
+
+\textbf{Questions about hourly payroll:}
+\begin{itemize}
+\item Phone: 718-935-3030
+\end{itemize}
+
+\textbf{For EIS Portal access issues:}
+\begin{itemize}
+\item Contact the DIIT Help Desk
+\item Email: cpscentralaccessrequest@schools.nyc.gov
+\end{itemize}
+
+%================================================================================
+\appendix
+
+\section{Remote Per Session Work Guidelines}
+
+\subsection{Authorized Remote Activities}
+
+In alignment with Chancellor's Regulation C-175, for the current school year, the following guidelines for school- and central-based remote per session work should be observed:
+
+\subsubsection{School-, District-, and Central-Based Superintendent-Sponsored Per Session Opportunities}
+
+Pedagogues will be allowed to earn per session remotely when strictly participating in school- or centrally-provided professional learning. This includes any and all school- or centrally-managed professional development sessions and any district-based professional development sessions which can/may be delivered remotely.
+
+\begin{itemize}
+\item The schedule must be determined by the supervisor prior to the activity and must be stated in the advertisement
+\item A remote offering will apply to all employees selected for the activity
+\item Producing deliverables, assignments, or other evidence of completed work aside from professional learning attendance and training is considered outside the scope of this provision and is not permitted to be performed remotely
+\end{itemize}
+
+\subsubsection{Office of Supervisors of School Psychologists (OSSP)/Central Based Support Team and/or CSE Evaluation}
+
+The Central-Based Support Team (CBST), OSSP and/or CSEs may create per session activities that are designed to focus on managing the special education evaluation process and the IEP process. These activities may be remote in whole or in part.
+
+\subsubsection{Related Service Providers/Supervisors}
+
+Pedagogical staff working in the afterschool/Saturday SEED and/or Saturday Academy programs may participate in remote per session opportunities.
+
+\subsection{Remote Work Requirements and Compliance}
+
+No other per session (school, central or district) may be performed remotely.
+
+In accordance with Chancellor's Regulation C-175, supervisors must follow all the applicable rules and procedures including:
+
+\subsubsection{Posting Requirements}
+
+\begin{itemize}
+\item Posting for 20 school days
+\item Specify a schedule in the posting and if the work shall be done in-person, remotely, or a combination of both (hybrid)
+\item Example text under Selection Criteria: ``This per session activity shall be both in-person and remote. Selected staff will be able to conduct all duties remotely as determined by the administration.''
+\item The schedule must be determined by the supervisor prior to beginning the activity and in writing
+\item The remote option must be included in the advertisement
+\end{itemize}
+
+\subsubsection{Documentation and Monitoring}
+
+\begin{itemize}
+\item Staff must maintain and submit a detailed log of their activities and evidence of their completed work
+\item Schools and central offices must utilize an online timekeeping form to record all per session work
+\item All staff are required to comply with the remote timekeeping procedures
+\item Supervisors are required to review work logs and timekeeping records
+\item Staff are not permitted to work per session on any school holiday unless it is approved and identified in the per session posting
+\item All school supervisors must advise their superintendents of all remote per session trainings prior to posting the activity
+\end{itemize}
+
+\subsection{Remote Hiring and Timekeeping Procedures}
+
+\subsubsection{Remote Hiring}
+
+Supervisors must post the per session activity using the posting requirements. It must be specified if it is determined that the work can be done remotely in the posting by including the following text under Selection Criteria:
+
+\textbf{``This is a remote per session work opportunity. Selected staff will be able to conduct all duties remotely.''}
+
+\subsubsection{Remote Timekeeping}
+
+\begin{itemize}
+\item All remote per session activities must be scheduled by the supervisor, or by the supervisor in consultation with staff, prior to beginning the activity
+\item Staff must maintain a detailed log of their activities and evidence of their completed work
+\item Schools and central offices must utilize an online timekeeping form to record all per session work
+\item The timekeeping form should be filled out by appropriate staff each day they perform the per session activity remotely and should be made available to the correct school secretary's entering time at each school
+\item The process for school secretaries entering time for per session remote work is similar to the process for entering time for school-based staff---school secretaries create the timekeeping document in which remote staff record their per session time, and the school secretary enters that time in the T-bank timekeeping system
+\end{itemize}
+
+\section{Field Trips}
+\subsection{General Field Trip Payment Policies and Requirements}
+
+All field trip per session assignments are subject to standard DOE regulations regarding compensable hours and documentation. Key requirements include:
+
+\begin{itemize}
+\item Compensable per session time on field trips is limited to periods when an employee is reasonably performing title\-specific, job\-related duties specified in the posting (for example: active student supervision, program instruction, administering medication, or assigned on\-duty travel supervision). Mere presence, sleeping, resting, or otherwise being available but not actively performing duties is not compensable.
+\item Per session hours are not permitted to be recorded between 12:00 AM and 5:59 AM. Passive overnight presence (for example, lodging with students without assigned overnight duties) is not compensable.
+\item All per session entries for evening or early\-morning hours must be supported by contemporaneous documentation such as duty rosters, signed sign\-in/sign\-out sheets, trip itineraries showing duty periods, supervisor logs, incident reports, or travel manifests. Payroll may disallow hours entered without adequate supporting documentation.
+\item Travel time is compensable only to the extent that it involves performing title\-specific duties according to the posting based on prior written approval. Normal commute time to or from lodging or destination is generally not compensable.
+\item Meal and rest breaks remain subject to Office of Labor Relations (OLR) requirements; schedules must show required breaks and breaks must be recorded on timesheets. Time used for bona fide sleep/rest that relieves the employee of duties is non\-compensable.
+\item Timekeeping guidance: Employees must record actual start and end times and include a brief justification note on timesheets. Supervisors approving such hours must sign or provide written affirmation that duties were performed during the recorded times.
+\end{itemize}
+
+\subsection{Day Field Trip Per Session Guidelines}
+
+\subsubsection{Scheduling and Hour Limits}
+
+\begin{itemize}
+\item Bulk jobs typically allow a maximum of seven (7) consecutive hours of per session work per day with required meal breaks
+\item Extensions beyond 7 consecutive hours require authorization from Division of School Leadership (DSL) staff and must apply to all employees working that specific bulk job
+\item Extensions are granted only in extreme circumstances with DBN, bulk job ID, and approved hour extension documented
+\end{itemize}
+
+\subsubsection{Meal Break Requirements}
+
+\begin{itemize}
+\item Office of Labor Relations (OLR) requires a minimum 30-minute unpaid meal break after five (5) consecutive hours of work
+\item Schedules must include this required break after every five continuous hours
+\item All time, including breaks, must be accurately recorded on the timesheet
+\end{itemize}
+
+\subsection{Overnight Field Trip Per Session Guidelines}
+
+\subsubsection{Voluntary Participation Policy}
+
+Overnight field trips, whether local, interstate, or international, are considered voluntary assignments and cannot be assigned by supervisors.
+
+\subsubsection{Compensation Restrictions}
+
+\begin{itemize}
+\item Expense reimbursements (meals, lodging, approved travel expenses) are processed as reimbursement vouchers, not as per session work processed by the Payroll Unit, unless the posting expressly provides otherwise.
+\item Per session compensation for travel is payable only when duties are title\-specific and directly related to the travel (for example, a travel paraprofessional).
+\item Passive presence (for example, lodging with students while not assigned to supervise during the overnight hours) is not compensable.
+\end{itemize}
+
+\vspace{1cm}
+
+\noindent\hrulefill
+
+\noindent\textit{End of Standard Operating Procedures Manual}
+
+\end{document}

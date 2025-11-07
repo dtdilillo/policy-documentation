@@ -1,0 +1,264 @@
+% Structured FAQ (NYCPS Per Session Employment)
+% XeLaTeX standards-compliant formatting
+
+\documentclass[11pt,a4paper,oneside]{article}
+
+% Language and encoding
+\usepackage[english]{babel}
+
+% Fonts for XeLaTeX
+\usepackage{fontspec}
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Sans}
+\setmonofont{Liberation Mono}
+
+% Page layout
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% Lists and formatting
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep,topsep=0.5pt}
+\setlist[enumerate]{noitemsep,topsep=0.5pt}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\lfoot{FAQ: Per Session Employment ver. Nov 2025}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% Custom plain style for title page: centered page number only, no rule
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \cfoot{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% Document structure
+\usepackage{titlesec}
+\titleformat{\section}[block]{\Large\bfseries}{\thesection\quad}{0pt}{}
+\titleformat{\subsection}[block]{\large\bfseries}{\thesubsection\quad}{0pt}{}
+\titleformat{\subsubsection}[block]{\bfseries}{\thesubsubsection\quad}{0pt}{}
+
+% Table of contents formatting
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % spaced-out periods
+\renewcommand{\contentsname}{Table of Contents}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+% Graphics (logo) and TikZ (diagrams/flowcharts)
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+% Title page
+\title{Per Session Employment FAQ\\New York City Public Schools}
+\author{Division of Human Resources}
+\date{Effective Date: November 2025}
+
+\begin{document}
+\maketitle
+
+% Insert centered logo on the title page (appears immediately under the title/date)
+\begin{center}
+  \vspace{6pt}
+  \includegraphics[height=1.0in]{horizontal_logo_black_publicschoolsc-no-names.jpg}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+% =====================
+\section{FAQ Purpose}
+\noindent Q1.1 \textbf{What is the purpose of this FAQ?}\\
+\noindent A1.1 This FAQ document provides comprehensive guidance on per session employment policies, procedures, and requirements for NYC Public Schools pedagogical staff. It addresses the most common inquiries regarding per session employment, as received by the Division of Human Resources.\vspace{6pt}
+
+% =====================
+\section{General Topics}
+\noindent Q2.1 \textbf{What is per session employment?}\\
+\noindent A2.1 Per session employment is any work activity outside regular work hours for which pedagogic employees are paid at an hourly rate established by applicable collective bargaining agreements.\vspace{6pt}
+
+\noindent Q2.2 \textbf{What is the ``Per Session Year"?}\\
+\noindent A2.2 The per session year aligns with the New York City Public Schools fiscal year, from July 1st to June 30th.\vspace{6pt}
+
+\noindent Q2.3 \textbf{When can an employee perform per session work?}\\
+\noindent A2.3 For current, active employees, per session work takes place during non-work hours (after school, weekends, summer). Retirees may work during the school day if the advertisement allows.\vspace{6pt}
+
+\noindent Q2.4 \textbf{Can a retiree work per session during the school day?}\\
+\noindent A2.4 Yes, if specifically allowed by the advertisement posting, and all full-time staff have been considered first.\vspace{6pt}
+
+\noindent Q2.5 \textbf{Are per session activities allowed on school holidays?}\\
+\noindent A2.5 No, per session is not permitted on school holidays for principals or most employees unless explicitly approved by the Division of Human Resources in writing and specified in the posting.\vspace{6pt}
+
+% =====================
+\section{Eligibility}
+\noindent Q3.1 \textbf{Who can work per session?}\\
+\noindent A3.1 Any pedagogic employee (teachers, principals, APs, etc.). H-Bank staff may not work per session.\vspace{6pt}
+
+\noindent Q3.2 \textbf{Can a substitute teacher work per session?}\\
+\noindent A3.2 Yes. However, qualified full-time pedagogic employees must be offered positions before per diem employees.\vspace{6pt}
+
+\noindent Q3.3 \textbf{Can a supervisor work in a per session activity?}\\
+\noindent A3.3 Yes, if the activity is different from their regular duties and is performed outside regular hours.\vspace{6pt}
+
+\noindent Q3.4 \textbf{Can a teacher hold a supervisory per session position?}\\
+\noindent A3.4 No. Teachers and pupil personnel providers cannot hold supervisory per session positions.\vspace{6pt}
+
+\noindent Q3.5 \textbf{Which QBank CSA titles are eligible for per session?}\\
+\noindent A3.5 Titles include Ed Administrator (EACSQ), Director--Drug Abuse Program (EAUFQ), New Principal Intern (PINTQ), AP Assigned 12 Month (SSAAQ), AP Assigned 10 Month (SUAAQ), Director (SUDIQ), Principal Assigned (SUPAQ).\vspace{6pt}
+
+\noindent Q3.6 \textbf{If an employee is absent from their daily assignment, can they work per session that day?}\\
+\noindent A3.6 No. Employees may not work per session on days absent from their primary assignment.\vspace{6pt}
+
+\noindent Q3.7 \textbf{Can an employee perform per session remotely?}\\
+\noindent A3.7 Yes, but only under the types and procedures identified in Chancellor's Regulation C-175 and each activity's advertisement.\vspace{6pt}
+
+% =====================
+\section{Advertisements/Postings}
+\noindent Q4.1 \textbf{How are per session activities advertised?}\\
+\noindent A4.1 At the school, district, and borough level. Citywide/central activities are advertised on the DHR website.\vspace{6pt}
+
+\noindent Q4.2 \textbf{Do all per session activities have to be advertised?}\\
+\noindent A4.2 Yes. All must generally be advertised for 20 school days, per Chancellor's Regulation C-175.\vspace{6pt}
+
+\noindent Q4.3 \textbf{What if a posting needs to be expedited?}\\
+\noindent A4.3 Expedited postings require union agreement, significant justification, and written documentation.\vspace{6pt}
+
+\noindent Q4.4 \textbf{Who sets the qualifications for a per session activity?}\\
+\noindent A4.4 The hiring manager establishes qualifications based on activity requirements.\vspace{6pt}
+
+\noindent Q4.5 \textbf{May postings be made before funding is certain?}\\
+\noindent A4.5 Yes. Postings must state "subject to funding availability."\vspace{6pt}
+
+% =====================
+\section{Applicant Screening}
+\noindent Q5.1 \textbf{What if there are no applicants?}\\
+\noindent A5.1 HR Director should be contacted at the DSL School Finance \& Human Resources Field Team Office to request district-wide reposting.\vspace{6pt}
+
+\noindent Q5.2 \textbf{How are applicants selected?}\\
+\noindent A5.2 Based on qualifications in the posting, then seniority. Coordinator makes job selections.\vspace{6pt}
+
+\noindent Q5.3 \textbf{Is it required to interview all qualified applicants?}\\
+\noindent A5.3 No; applications may be screened by criteria and pool narrowed for interviews.\vspace{6pt}
+
+\noindent Q5.4 \textbf{How are candidates notified?}\\
+\noindent A5.4 Hiring manager should notify all applicants in writing regarding selection status.\vspace{6pt}
+
+\noindent Q5.5 \textbf{What must an OP-175 contain?}\\
+\noindent A5.5 The OP-175 must be fully completed, signed, and dated by both applicant and supervising administrator before activity begins.\vspace{6pt}
+
+\noindent Q5.6 \textbf{Can applications be accepted after the deadline or activity start?}\\
+\noindent A5.6 No. Applications must be received and dated before the deadline and activity start. Rare exceptions require justification.\vspace{6pt}
+
+% =====================
+\section{Work Hours}
+\noindent Q6.1 \textbf{How many per session hours may be worked?}\\
+\noindent A6.1 500 hours/year for principals, APs, EAs. 400 hours/year for teachers, secretaries, paraprofessionals, social workers, psychologists.\vspace{6pt}
+
+\noindent Q6.2 \textbf{Can hours above the cap be worked?}\\
+\noindent A6.2 Yes, if a waiver is obtained before work commences. Waivers required for 400+/500+ hours up to 800. Deputy Chancellor/DHR approval needed above 800. Principals always need Superintendent approval.\vspace{6pt}
+
+\noindent Q6.3 \textbf{Must per session work be scheduled within certain hours of day?}\\
+\noindent A6.3 Yes. May be scheduled 6:00 am -- 11:59 pm only.\vspace{6pt}
+
+\noindent Q6.4 \textbf{Are there break requirements?}\\
+\noindent A6.4 Yes. After 5 consecutive hours, a 30-min unpaid break is required. Must record all time and breaks on timesheet.\vspace{6pt}
+
+% =====================
+\section{Waivers}
+\noindent Q7.1 \textbf{When is a waiver required?}\\
+\noindent A7.1 If hours to be worked exceed caps (see Work Hours). Teachers: waiver needed 400-800. APs/EAs: 500-800. Above 800, Deputy Chancellor/DHR approval required.\vspace{6pt}
+
+\noindent Q7.2 \textbf{Who approves waivers?}\\
+\noindent A7.2 HRDs or payroll staff for school/district/borough, DHR for central office. Principals require Superintendent approval at all levels.\vspace{6pt}
+
+\noindent Q7.3 \textbf{What is the approval process by title/hour?}\\
+\noindent A7.3 Teachers: 0-400 no, 400-800 waiver, 800+ DHR. AP/EA: 0-500 no, 500-800 waiver, 800+ DHR. Principals: 0-500 Superintendent, 500-800 Superintendent+waiver, 800+ Superintendent+Deputy+waiver.\vspace{6pt}
+
+\noindent Q7.4 \textbf{How many waivers can be requested?}\\
+\noindent A7.4 There is no maximum, but all are subject to review for reasonableness.\vspace{6pt}
+
+\noindent Q7.5 \textbf{How many hours can be covered by a single waiver?}\\
+\noindent A7.5 Up to a maximum of 100 additional hours per waiver. Waivers should match precise need.\vspace{6pt}
+
+\noindent Q7.6 \textbf{How are waiver requests documented and justified?}\\
+\noindent A7.6 The hiring manager must document need and show no equally qualified alternative is available.\vspace{6pt}
+
+% =====================
+\section{Retention Rights}
+\noindent Q8.1 \textbf{How are retention rights claimed?}\\
+\noindent A8.1 After two consecutive years with satisfactory ratings in the same activity, retention rights can be claimed on OP-175.\vspace{6pt}
+
+\noindent Q8.2 \textbf{Can more than one program retain rights?}\\
+\noindent A8.2 No. Retention rights are limited to one activity per employee.\vspace{6pt}
+
+\noindent Q8.3 \textbf{Do retirees retain retention rights?}\\
+\noindent A8.3 Yes, if they immediately and successfully continue in the same activity each year.\vspace{6pt}
+
+\noindent Q8.4 \textbf{Are supervisory staff eligible for retention rights?}\\
+\noindent A8.4 No. These rights are only for certain non-supervisory staff.\vspace{6pt}
+
+\noindent Q8.5 \textbf{If a position does not run one year but returns?}\\
+\noindent A8.5 Retention rights may still be honored if the activity returns identically in a future year.\vspace{6pt}
+
+% =====================
+\section{Payroll}
+\noindent Q9.1 \textbf{When must timesheets be submitted?}\\
+\noindent A9.1 Each employee must submit a timesheet for the prior per session period within one school day after the work period.\vspace{6pt}
+
+\noindent Q9.2 \textbf{Does this include principals?}\\
+\noindent A9.2 Yes. Principals must submit to their Superintendent the same as other employees.\vspace{6pt}
+
+\noindent Q9.3 \textbf{What does the Payroll Secretary do?}\\
+\noindent A9.3 Payroll Secretary collects timesheets, enters time in the T-Bank payroll system, and shares 25\% cap warnings.\vspace{6pt}
+
+\noindent Q9.4 \textbf{How is per session time entered/paid?}\\
+\noindent A9.4 Entered by Payroll Secretary in T-Bank, twice monthly by close date. Payroll can be entered any time, but pay runs twice monthly.\vspace{6pt}
+
+\noindent Q9.5 \textbf{Earning sick time per session?}\\
+\noindent A9.5 Yes. Employees earn sick leave per negotiated protocols (see details in policy/contract).\vspace{6pt}
+
+\noindent Q9.6 \textbf{Are per session earnings pensionable?}\\
+\noindent A9.6 Yes, for pedagogic employees.\vspace{6pt}
+
+\noindent Q9.7 \textbf{Per session and jury duty?}\\
+\noindent A9.7 No pay for activity hours missed while serving on jury duty.\vspace{6pt}
+
+\noindent Q9.8 \textbf{Retroactive summer per session?}\\
+\noindent A9.8 Not allowed; new hires in September cannot be paid for work performed during the preceding summer.\vspace{6pt}
+
+\noindent Q9.9 \textbf{Overpayments?}\\
+\noindent A9.9 Payroll Office issues notice; employee receives notice and repayment with proper schedule.\vspace{6pt}
+
+% =====================
+\section{Record-Keeping}
+\noindent Q10.1 \textbf{What records are required?}\\
+\noindent A10.1 Principal/hiring manager must maintain all documentation (posting, applications, timesheets, ratings) for audit or grievance. This applies to all titles.\vspace{6pt}
+
+\noindent Q10.3 \textbf{What happens if a grievance is filed?}\\
+\noindent A10.3 Documentation must be produced showing fair, criteria-based screening and hiring.\vspace{6pt}
+
+\noindent Q10.4 \textbf{Record-keeping for remote per session?}\\
+\noindent A10.4 Must include posting, applications, work logs, timekeeping forms per Chancellor's Reg. C-175.\vspace{6pt}
+
+% =====================
+\section{Contact Information}
+\noindent Q11.1 \textbf{Whom do I contact for additional guidance?}\\
+\noindent A11.1 Contact Division of Human Resources at 718-935-4075 or PerSessionStaff@schools.nyc.gov for questions regarding per session employment in NYC Public Schools.\vspace{6pt}
+
+\vspace{1cm}
+
+\noindent\hrulefill
+
+\noindent\textit{End of Frequently Asked Questions Document}
+
+\end{document}

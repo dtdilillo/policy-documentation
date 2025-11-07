@@ -1,0 +1,284 @@
+% Structured FAQ (NYCPS Principal Per Session Employment)
+% XeLaTeX standards-compliant formatting
+
+\documentclass[11pt,a4paper,oneside]{article}
+
+% Language and encoding
+\usepackage[english]{babel}
+
+% Fonts for XeLaTeX
+\usepackage{fontspec}
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Sans}
+\setmonofont{Liberation Mono}
+
+% Page layout
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% Lists and formatting
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep,topsep=0.5pt}
+\setlist[enumerate]{noitemsep,topsep=0.5pt}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\lfoot{FAQ: Principal Per Session Employment ver. Nov 2025}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% Custom plain style for title page: centered page number only, no rule
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \cfoot{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% Document structure
+\usepackage{titlesec}
+\titleformat{\section}[block]{\Large\bfseries}{\thesection\quad}{0pt}{}
+\titleformat{\subsection}[block]{\large\bfseries}{\thesubsection\quad}{0pt}{}
+\titleformat{\subsubsection}[block]{\bfseries}{\thesubsubsection\quad}{0pt}{}
+
+% Table of contents formatting
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % spaced-out periods
+\renewcommand{\contentsname}{Table of Contents}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+% Graphics (logo) and TikZ (diagrams/flowcharts)
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+% Title page
+\title{Principal Per Session Employment FAQ\\New York City Public Schools}
+\author{Approved by Division of Human Resources}
+\date{Effective Date: November 2025}
+
+\begin{document}
+\maketitle
+
+% Insert centered logo on the title page (appears immediately under the title/date)
+\begin{center}
+  \vspace{6pt}
+  \includegraphics[height=1.0in]{horizontal_logo_black_publicschoolsc-no-names.jpg}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+% =====================
+\section{FAQ Purpose}
+\noindent Q1.1 \textbf{What is the purpose of this FAQ?}\\
+\noindent A1.1 This FAQ document provides comprehensive guidance on per session employment policies, procedures, and requirements for NYC Public Schools principals. We have compiled these frequently asked questions to help principals, administrators, and hiring managers understand the rules governing principal per session work, from eligibility and application processes to payroll and record-keeping requirements. Please review this resource thoroughly before contacting us at 718-935-4075 or PerSessionStaff@schools.nyc.gov, as it addresses the most common inquiries we receive regarding per session employment.\vspace{6pt}
+
+% =====================
+\section{General Information}
+\noindent Q2.1 \textbf{What is the maximum number of per session hours allowed for CSA titles?}\\
+\noindent A2.1 The maximum number of per session hours permitted for CSA titles (including Principals, Assistant Principals, and Education Administrators) during any per session year is 500 hours.\vspace{6pt}
+
+\noindent Q2.2 \textbf{When must Principals request approval for per session work?}\\
+\noindent A2.2 Principals must request and receive approval for per session work prior to the start of any per session activity. No per session work should be conducted before approval is granted.\vspace{6pt}
+
+\noindent Q2.3 \textbf{Can principals perform per session work on school holidays?}\\
+\noindent A2.3 No, principals may not perform any per session work on school holidays under any circumstances.\vspace{6pt}
+
+\noindent Q2.4 \textbf{Can principals take annual leave and work per session on the same day?}\\
+\noindent A2.4 No, principals cannot take an annual leave day and work per session the same day. They must bank holiday or annual leave days for use at another time.\vspace{6pt}
+
+\noindent Q2.5 \textbf{When can principals perform per session work?}\\
+\noindent A2.5 All per session work must occur outside regular principal duties.\vspace{6pt}
+
+% =====================
+\section{Request Status Levels}
+\noindent Q3.1 \textbf{What are the different status levels for Principal per session requests?}\\
+\noindent A3.1 There are four status levels:
+\begin{itemize}
+\item Pending: Requests not yet approved or denied by the Superintendent.
+\item Disapproved: Requests that have been denied. Principals may not work the per session job/activity.
+\item Approved: Requests that have been authorized by the Superintendent. Principals are permitted to work the per session job.
+\item Saved: Requests created but not yet submitted by the Principal. These do not generate a request for the Superintendent’s approval until formally submitted.
+\end{itemize}\vspace{6pt}
+
+\noindent Q3.2 \textbf{How can a Principal submit a "Saved" request?}\\
+\noindent A3.2 The Principal must go back into the EIS Portal and click "SEND EMAIL" to formally submit the request.\vspace{6pt}
+
+\noindent Q3.3 \textbf{What should a Principal do if their request is in "Saved" status but not yet submitted?}\\
+\noindent A3.3 The Principal must return to the EIS Portal and click “SEND EMAIL” to formally submit the request for the Superintendent’s review and approval.\vspace{6pt}
+
+% =====================
+\section{Superintendent Review Process}
+\noindent Q4.1 \textbf{What documents and details should the Superintendent review in a Principal per session request?}\\
+\noindent A4.1 The Superintendent should review:
+\begin{itemize}
+\item A copy of the Per Session advertisement, including program number, dates, and hours.
+\item Validity and approval of the activity.
+\item Advertising protocols (posted for up to 20 school days before the activity).
+\item A letter from any Assistant Principals (APs) declining the Per Session position.
+\item Correct range of dates and hours requested.
+\item The Principal’s total per session hours for the school year to ensure it does not exceed 500 hours.
+\item Budget availability and program approval status.
+\end{itemize}\vspace{6pt}
+
+\noindent Q4.2 \textbf{How does the Superintendent verify the total per session hours worked by a Principal?}\\
+\noindent A4.2 The Superintendent should review the Principal's total per session hours for the current school year in the EIS Portal to ensure they do not exceed the 500-hour limit.\vspace{6pt}
+
+% =====================
+\section{Approval Process}
+\noindent Q5.1 \textbf{What happens if a Superintendent approves a per session request?}\\
+\noindent A5.1 If approved, the Principal can work the job and will be compensated. An approval email is sent to the Principal and confirmation is sent to the Superintendent.\vspace{6pt}
+
+\noindent Q5.2 \textbf{What are the methods for a Superintendent to approve a per session request?}\\
+\noindent A5.2 There are two methods:
+\begin{itemize}
+\item Direct Approval via Email: The request is received directly in the Superintendent’s Outlook inbox.
+\item Approval via the EIS Portal: If the email request is not received, it can be accessed and approved in the EIS Portal.
+\end{itemize}\vspace{6pt}
+
+\noindent Q5.3 \textbf{What steps should a Superintendent follow for Direct Email Approval?}\\
+\noindent A5.3
+\begin{itemize}
+\item Open the email request.
+\item Conduct a review of the Principal per session request.
+\item Ensure all supporting documents are in order.
+\item Click “APPROVE” or “DISAPPROVE” on the request.
+\item If disapproved, provide a reason for the denial. An email indicating the status will be sent to the Principal.
+\end{itemize}\vspace{6pt}
+
+\noindent Q5.4 \textbf{What steps should a Superintendent follow for Approval via the EIS Portal?}\\
+\noindent A5.4
+\begin{itemize}
+\item Log in to EIS Portal using Outlook credentials.
+\item Click on the “PER SESSION” tab.
+\item Click on the “CENTRAL USERS REPORTING” tab.
+\item Enter the Principal’s File \# or EIS ID and click “SEARCH”.
+\item Click the RED CHECK MARK to access the request.
+\item Conduct a review and ensure all supporting documents are in order.
+\item Click “APPROVE” or “DISAPPROVE” on the request.
+\item If disapproved, provide a reason for the denial. An email indicating the status will be sent to the Principal.
+\end{itemize}\vspace{6pt}
+
+\noindent Q5.5 \textbf{Can Superintendents edit the details of a per session request submitted by a Principal?}\\
+\noindent A5.5 No, Superintendents cannot edit the details of a per session request. They can only approve or disapprove of it. Any necessary changes must be made by the Principal before resubmission.\vspace{6pt}
+
+\noindent Q5.6 \textbf{How are Principals notified of the approval or disapproval of their per session request?}\\
+\noindent A5.6 Principals are notified via email, which includes the status (approved or disapproved) and any comments or reasons provided by the Superintendent.\vspace{6pt}
+
+\noindent Q5.7 \textbf{How can Superintendents keep track of all per session approvals and disapprovals?}\\
+\noindent A5.7 Superintendents can keep track of all per session requests, their statuses, and any associated comments in the EIS Portal under the “PER SESSION” tab.\vspace{6pt}
+
+\noindent Q5.8 \textbf{Can Principal per session requests be amended once correctly submitted and approved?}\\
+\noindent A5.8 No, it cannot be amended. A new request must be submitted to add any hours needed. If the new request yields a “Duplicate Dates” warning or error message, the program number must be changed for the request to successfully submit.\vspace{6pt}
+
+\noindent Q5.9 \textbf{What are the differences in approval processes for school-based versus central-based principal per session positions?}\\
+\noindent A5.9 For school-based positions, principals must ensure the position is posted for 20 school days, offer it to supervisory staff below principal level first (with priority to assistant principals), and provide declination letters. For central-based positions, principals submit a standard OP-175 application following the job posting instructions, and no declination letters are needed. In both cases, superintendent approval is required before work begins.\vspace{6pt}
+
+% =====================
+\section{Per Session Advertising/Posting Requirements}
+\noindent Q6.1 \textbf{What is the protocol for advertising per session positions for Principals?}\\
+\noindent A6.1 Per session positions must be posted for up to 20 school days before the activity begins to ensure transparency and opportunity for all eligible candidates.\vspace{6pt}
+
+\noindent Q6.2 \textbf{What specific information should be included in a per session advertisement?}\\
+\noindent A6.2 The advertisement should include the program number, dates, hours, job description, eligibility requirements, and application instructions.\vspace{6pt}
+
+% =====================
+\section{Documentation and Record-Keeping}
+\noindent Q7.1 \textbf{What should a Principal include in their request if Assistant Principals (APs) decline the per session position?}\\
+\noindent A7.1 The Principal should include a letter from the APs declining the per session position in their request documentation.\vspace{6pt}
+
+\noindent Q7.2 \textbf{How should the Superintendent handle requests with incomplete documentation?}\\
+\noindent A7.2 The Superintendent should disapprove the request and provide specific reasons for the denial, prompting the Principal to complete and resubmit the necessary documentation.\vspace{6pt}
+
+% =====================
+\section{Reviewing Principal Per Session Hours}
+\noindent Q8.1 \textbf{What should the Superintendent do if a Principal’s request exceeds the 500-hour per session limit?}\\
+\noindent A8.1 The Superintendent should disapprove the request and notify the Principal of the reason, advising them to adjust the hours or redistribute the workload.\vspace{6pt}
+
+\noindent Q8.2 \textbf{How can Superintendents ensure that the requested per session dates are accurate?}\\
+\noindent A8.2 Superintendents should verify that the requested dates fall within the valid range of the bulk job and adjust them, if necessary, before approval.\vspace{6pt}
+
+\noindent Q8.3 \textbf{What should a Superintendent do if a Principal's request includes an excessive number of hours for the specified time frame?}\\
+\noindent A8.3 The Superintendent should ask the Principal to lower the number of hours or change the end date to a later date to align with the guidelines.\vspace{6pt}
+
+% =====================
+\section{Waivers}
+\noindent Q9.1 \textbf{Is the process for submitting principal per session requests the same as waivers for other titles?}\\
+\noindent A9.1 No. Superintendents must review requests by principals to perform per session work as well as requests for waivers prior to all principal per session service. The Superintendent should review the online Per Session Report to identify the number of hours and activities worked by the principal from the beginning of the per session year to determine whether the request should be granted. Principals may only perform a maximum of 500 hours of per session work. Superintendents may continue to approve of additional hours beyond that with potential DHR review as needed.\vspace{6pt}
+
+% =====================
+\section{Retention Rights}
+\noindent Q9.2 \textbf{Can principals claim retention rights for per session activities?}\\
+\noindent A9.2 No, principals cannot claim retention rights for any per session activities. CSA employees cannot claim per session retention rights.\vspace{6pt}
+
+% =====================
+\section{Payroll}
+\noindent Q10.1 \textbf{When must per-session time sheets be submitted for payments?}\\
+\noindent A10.1 Each per session employee is required to submit a time sheet for service that was performed during the prior per session period within one (1) school day of the per session period immediately following each period of service.\vspace{6pt}
+
+\noindent Q10.2 \textbf{Does this timesheet submission requirement apply to principals working per session?}\\
+\noindent A10.2 Yes, this requirement applies to all per session employees, including principals. Principals must submit their timesheets to their Superintendent for per session work within one (1) school day of the per session period immediately following each period of service, just like all other per session employees. Superintendents or their designees must approve and sign submitted principal timesheets.\vspace{6pt}
+
+\noindent Q10.3 \textbf{What are the reasons that an employee may not get paid?}\\
+\noindent A10.3 There can be several reasons why an employee may not be paid:
+\begin{itemize}
+\item Was their time entered correctly?
+\item Was it approved correctly?
+\item Has the employee reached the maximum hourly cap without a waiver being entered and approved into the online waiver system by the respective HR Director?
+\item Does the Bulk Job have sufficient funds to pay the employee?
+\end{itemize}
+Time worked by employees in a per session activity is entered into the EIS – T-Bank Per Session Payroll system by the Per Session Payroll Secretary twice a month by the close date for each pay period, as outlined on the Payroll Calendar Schedule posted in T-Bank by the Per Session Payroll Office.
+
+If an employee does not get paid, it is the responsibility of the payroll secretary to rectify the situation based on the information above. If a person was hired for a per session activity and does not have a current line of service, or a retiree line of service, that person is working without approval. Therefore, that person may not be paid. There is no retroactive staffing for per session employees and the person will have to file a grievance to be paid.\vspace{6pt}
+
+\noindent Q10.4 \textbf{Does an individual working in a per session activity earn sick time?}\\
+\noindent A10.4 Yes. The following context-specific protocols should be heeded:
+\begin{itemize}
+\item For per session work during the regular school year, every twenty consecutive sessions worked in a specific activity earn an individual one session of sick leave. The individual is entitled to CAR credit equal to the length of one per session activity. If the session was 2 hours and the individual worked 20 consecutive sessions, the individual would be entitled to 2 hours of sick leave). If the sick time is not used during the remainder of the activity it is transferred to the individual’s regular CAR for future use. The employee must request such time right after the activity ends.
+\item For work during the summer, employees must be assigned during the first five (5) days of a program in July and work the entire month of July to earn a session of sick leave for July. One additional session of sick leave is earned if the employee works the full program in August. Unused sick leave is transferred to the employee’s regular CAR at the end of the program at the request of the employee.
+\end{itemize}\vspace{6pt}
+
+\noindent Q10.5 \textbf{Is per session income pensionable?}\\
+\noindent A10.5 For pedagogic employees, all per session income is pensionable.\vspace{6pt}
+
+\noindent Q10.6 \textbf{Can per session employment be earned while an employee is performing jury duty?}\\
+\noindent A10.6 No, employees are not paid for hours not worked in a per session activity while serving on jury duty. Employees are only compensated for per session hours worked.\vspace{6pt}
+
+\noindent Q10.7 \textbf{Can new employees retroactively earn summer per session work after being officially hired in the following September?}\\
+\noindent A10.7 No, new employees who are onboarded and officially hired on payroll during September are not eligible for per session or any form of payment for any hours performed during the preceding/previous summer, except for time worked during the new teacher week. Participation by any employee before the onboarding and payroll process is considered voluntary and cannot be compensated.\vspace{6pt}
+
+\noindent Q10.8 \textbf{What are the current CSA per session payment rates?}\\
+\noindent A10.8 The full CSA rate table is published on the DFO Payroll Portal.\vspace{6pt}
+
+% =====================
+\section{Troubleshooting and Handling Errors}
+\noindent Q11.1 \textbf{What are some common errors when approving Principal per session requests and their resolutions?}\\
+\noindent A11.1
+\begin{itemize}
+\item Bulk jobs are frozen due to no available funds: Increase the allocation for the bulk job, create another bulk job, or use another available bulk job.
+\item Start or end date issues: Enter a date within the valid range of the bulk job.
+\item Invalid prior year bulk jobs: Enter a current year bulk job.
+\item Excessive hours for the time frame: Lower the number of hours or change the end date to a later date.
+\end{itemize}\vspace{6pt}
+
+% =====================
+\section{Contact Information}
+\noindent Q12.1 \textbf{Whom do I contact for additional guidance?}\\
+\noindent A12.1 Contact us at 718-935-4075 or PerSessionStaff@schools.nyc.gov, as it addresses the most common inquiries we receive regarding per session employment.\vspace{6pt}
+
+\vspace{1cm}
+
+\noindent\hrulefill
+
+\noindent\textit{End of Frequently Asked Questions Document}
+
+\end{document}
